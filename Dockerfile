@@ -1,8 +1,8 @@
 FROM ubuntu:16.04
 MAINTAINER Samuele Bistoletti <samuele.bistoletti@gmail.com>
 
-ENV ARCH amd64
-#ENV ARCH armhf
+# currently supported architectures: amd64 and armhf
+ENV ARCH armhf
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG C.UTF-8
